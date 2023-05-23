@@ -4,16 +4,14 @@
 }
 
 body {
-background-image: linear-gradient(#fefefe,#043710);
+background-image: linear-gradient(white,#52e272,#043710);
 background-size:1000%;
-animation: tanimado 10s infinite;
 }
 
 header {
   width: 100%;
   overflow: hidden;
-  background-color: white;
-  margin-bottom: 20px;
+  background-color: hwb(0 100% 0%);
 }
 
 .wrapper {
@@ -25,25 +23,12 @@ header {
 
 header .logo {
 float: left;
-line: height 200px;;
-color:#f2f2f2;
+line-height:5rem;
 }
 
 header .logo img{
     width: 200px;
     height: 150px;
-}
-
-@keyframes tanimado{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
 }
 
 header nav{
@@ -66,9 +51,25 @@ header nav a {
 
 header nav a:hover{
     background: #abdab6;
-    border-radius: 75px;
+    border-radius: 50px;
 }
 
 .header1{
     position: fixed
 }
+
+.header1 .logo{
+    line-height: 10px;
+}
+
+.header1 nav{
+    line-height: 100px;
+}
+
+.contenido{
+    padding-top: 100px;
+}
+.contenido p {
+    margin-bottom: 1rem;
+}
+
