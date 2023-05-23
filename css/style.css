@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background-image: linear-gradient(#fefefe,#043710);
+background-size:1000%;
+animation: tanimado 10s infinite;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo {
+float: left;
+line-height:5rem;
+}
+
+header .logo img{
+    width: 200px;
+    height: 150px;
+}
+
+@keyframes tanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+header nav{
+    float: right;
+    line-height: 200px;
+}
+
+header nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: #043710;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+header nav a:hover{
+    background: #abdab6;
+    border-radius: 75px;
+}
+
+.header1{
+    position: fixed
+}
