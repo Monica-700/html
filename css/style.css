@@ -13,6 +13,7 @@ header {
   width: 100%;
   overflow: hidden;
   background-color: white;
+  margin-bottom: 20px;
 }
 
 .wrapper {
@@ -24,7 +25,8 @@ header {
 
 header .logo {
 float: left;
-line-height:5rem;
+line: height 200px;;
+color:#f2f2f2;
 }
 
 header .logo img{
